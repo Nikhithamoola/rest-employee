@@ -1,0 +1,18 @@
+server:
+    port: 9696
+spring:
+    application:
+        name: SpringBootRestFinal1
+    datasource:
+        driverClassName: oracle.jdbc.OracleDriver
+        password: 'start                '
+        url: 'jdbc:oracle:thin:@localhost:1521:xe '
+        username: 'Nikhitha1               '
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.OracleDialect
+                format_sql: true
+        show-sql: true
